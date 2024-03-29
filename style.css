@@ -1,0 +1,90 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 500px;
+    margin: 55px auto;
+    padding: 20px;
+    background-color:peachpuff;
+    border-radius: 5px;
+}
+.container h2 {
+    font-weight: bold;
+}
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position:fixed;
+    right: 0;
+    background-color:peachpuff;
+    padding : 10px;
+}
+
+.sidebar h2 {
+    color: #0f0f0f;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    color: #020101;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 5%;
+    padding: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color:peachpuff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.form input {
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(41, 197, 27);
+    color: #fff;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #59e778;
+}
+
+.form p {
+    margin-top: 15px;
+}
+
